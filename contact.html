@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/style/style.css">
+<title>Contact</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><strong>Jennifer Travisano</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <main>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-5 contact-content">
+          <p><h1>Contact Info</h1></p>
+          <p>If you wish to contact me, you can find me at the following places.</p>
+         <p><a href="mailto:jtravisano22@comcast.net"><i class="fas fa-envelope-open-text"></i></a>
+          </p>
+          <p><a href="https://www.linkedin.com/in/jennifer-travisano-a620391b5/"><i class="fab fa-linkedin-in"></i></a></p>
+          <p><a href="https://github.com/jtravisano22"><i class="fab fa-github"></i></a></p>
+
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5 contact-content">
+          <p><h1>Any questions?</h1></p>
+          <p>Use my contact form to get directly in touch with me.</p>
+          <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+            <!-- Name -->
+            <div class="form-group label-floating">
+              <label class="control-label" for="name">Name</label>
+              <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- email -->
+            <div class="form-group label-floating">
+              <label class="control-label" for="email">Email</label>
+              <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- Subject -->
+            <div class="form-group label-floating">
+              <label class="control-label">Subject</label>
+              <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- Message -->
+            <div class="form-group label-floating">
+                <label for="message" class="control-label">Message</label>
+                <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                <div class="help-block with-errors"></div>
+            </div>
+            <!-- Form Submit -->
+            <div class="form-submit mt-5">
+                <button class="btn btn-common" type="submit" id="form-submit" style="color: lightslategray; background-color: linen; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                <div class="clearfix"></div>
+            </div>
+        </form>
+        </div>
+      </div>
+      </div>
+    </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
