@@ -14,10 +14,11 @@ p, .shake {
 }
 
 .index-content {
-    margin: 80px;
+    margin: 70px;
+    margin-left: 0px;
     padding-top: 30px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 40px;
     padding-bottom: 30px;
     background-color: linen;
 }
